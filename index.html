@@ -1,34 +1,133 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Roth's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        article {
+            margin-bottom: 1.5rem;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin-left: 0.5rem;
+            color: #007BFF;
+            font-size: 0.9rem;
+        }
+        p {
+            margin: 0.5rem 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Owen Roth's Portfolio</h1>
+    </header>
+    <main>
+        <!-- Web Services Section -->
+        <section>
+            <h2>Web Services</h2>
+            <article>
+                <h3><a href="https://drive.google.com/drive/folders/1uX7MnkxYST098km5O6qly4VKXaU98Gz8?usp=sharing">Social Media<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This is code for a site generator that can create static pages, server-side dynamic pages,
+                    and client-side dynamic pages. This specific code is in the form of an Instagram clone
+                    with many of Instagram's features. It achieves this using JavaScript programming, asynchronous 
+                    programming (AJAX), and REST APIs.
+                </p>
+            </article>
+            <article>
+                <h3><a href="https://drive.google.com/drive/folders/1EwJYDAGmzNDNby5sqtTPKRD_HwpVO-By?usp=sharing">Wikipedia Search Engine<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This is the code for a scalable search engine that scours Wikipedia pages and returns
+                    pages based on the input. This uses text analysis (tf-idf) and link analysis (PageRank),
+                    and parallel data processing with MapReduce to return the best results.
+                </p>
+            </article>
+        </section>
 
-<!-- TODO: Replace Mr. Miyamoto's name with yours -->
-<h1>The Portfolio of Owen Roth</h1>
+        <!-- Game Development Section -->
+        <section>
+            <h2>Game Development</h2>
+            <article>
+                <h3><a href="https://faedead.itch.io/project1-metroid">Metroid (Unity Remaster)<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This is a recreation of Metroid with a new mechanic. 
+                    I was responsible for implementing all of the enemies, health, collectibles, doors, 
+                    the custom mechanic, and the level. Additionally, I authored the research piece.
+                </p>
+            </article>
+            <article>
+                <h3><a href="https://faedead.itch.io/gold-spike">Project 2 Gold Spike<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>This is a game with a novel mechanic created during a rushed development project.</p>
+            </article>
+            <article>
+                <h3><a href="https://faedead.itch.io/project-2-gold">Project 2 Gold<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This is an improved version of the same game, polished after peer feedback. 
+                    However, it was still implemented under a tight timeline.
+                </p>
+            </article>
+            <article>
+                <h3><a href="https://faedead.itch.io/project-3">Project 3 Gold<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This is a rogue-like infinite runner-style game made by a group of three students over 
+                    a little more than a month. I was responsible for implementing all non-boss enemies, collectibles, 
+                    miscellaneous sprites, game balancing, and fine tuning. I also helped my partners with bug fixing in their sections.
+                </p>
+            </article>
+        </section>
 
-<h2>Projects</h2>
-
-<!-- TODO: Erase one of these two. Replace the 'href' link below with a link to your WebGL build page. -->
-<ul>
-<li><a href="https://faedead.itch.io/project1-metroid">Metroid (Unity Remaster)</a></li>
-</ul>
-
-<!-- TIP: Rename this file "index.html", and it will become the default landing page whenever someone navigates their browser to your domain. -->
-<h3>This is a recreation of Metroid with a new mechanic</h3>
-<h4>I was responsible for implementing all of the enemies, health, collectibles, doors, and the custom mechanic and level. I also wrote the research piece</h4>
+        <!-- Miscellaneous Section -->
+        <section>
+            <h2>Miscellaneous</h2>
+            <article>
+                <h3><a href="https://github.com/OwenJRoth/APIPullDatabaseSI206">NBA Allstar Database<i class="fas fa-external-link-alt icon"></i></a></h3>
+                <p>
+                    This was a simple API project. I retrieved data from multiple APIs and stored it in an SQL database.
+                    I then created a table joining information from the different
+                    sources and added new values based on calculations derived from the original information.
+                    Visuals were also created to further understand the information.
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
 </html>
-
-<ul>
-    <li><a href="https://faedead.itch.io/gold-spike">Project 2 Gold Spike</a></li>
-</ul>
-<h3>This is a game that has a novel mechanic for a rushed development project</h3>
-
-<ul>
-    <li><a href="https://faedead.itch.io/project-2-gold">Project 2 Gold</a></li>
-</ul>
-<h3>This is the same game but better polished after peer feedback, but still a rushed implementation</h3>
-
-<ul>
-    <li><a href="https://faedead.itch.io/project-3">Project 3 Gold</a></li>
-</ul>
-<h3>This is a rouge-like infinite runner-style game. This was made by a group of 3 students throughout a little over a month.</h3>
-<h4>I was responsible for implementing all of the enemies (non-bosses), collectibles, misc sprites, game balancing, and tuning, as well as helping my partners with bug fixing</h4>
-
-
